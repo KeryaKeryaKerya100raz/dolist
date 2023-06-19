@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #222;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+}
+
+header .button-add {
+  font-size: 50px;
+  cursor: pointer;
+  transition: color 500ms ease;
+}
+
+header .button-add:hover {
+  color: #dc3d3d;
+}
+
+header .new-zadacha {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  width: 200px;
+  min-height: 100px;
+background: #222;
+z-index: 999;
+display: flex;
+flex-direction: column;
+
+}
+
+header .input .submit {
+  width: 10px;
+}
+
